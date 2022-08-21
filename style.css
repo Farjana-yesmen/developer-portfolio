@@ -4,10 +4,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 .orange-color{
    color: orange; 
 }
-section{
+.flexzibale-containrer{
     display: flex;
     margin-bottom: 100px;
 }
@@ -36,3 +39,27 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.expriance-area{
+    background-image: url(images/banner4.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exprience-color{
+   width: 40%;
+   margin-left: 5%;
+   margin-right: 5%; 
+   padding-left: 20px;
+   box-shadow: 10px 10px 40px gray;
+   border-radius: 10px;
+   
+}
+#porson-one{
+    border-left:7px solid rgb(255, 123, 0) ;
+}
+#porson-two{
+    border-left:7px solid blue ;
+}
+#footer-side{
+    text-align: center;
+}
+
